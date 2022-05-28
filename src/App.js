@@ -3,7 +3,7 @@ import './App.css';
 import { useState } from 'react';
 
 const getImages = async query => {
-  const url = "http://localhost:8787";
+  const url = "https://worker-typescript-template.eskil-petersson.workers.dev";
 
   const resp = await fetch(url, {
     method: "POST",
